@@ -15904,11 +15904,11 @@ With the 4 features selected from Question 4, we should have about 600 combinati
 <ul>
 <li>Waypoint: 3 states (left, right, straight)</li>
 <li>Light: 2 states (red, green)</li>
-<li>Left: 5 states (none, stay, straight, left, right)</li>
-<li>Oncoming: 5 states (none, stay, straight, left, right)</li>
+<li>Left: 4 states (stay, straight, left, right)</li>
+<li>Oncoming: 4 states (stay, straight, left, right)</li>
 <li>Possible actions: 4 states (stay, straight, left, right)</li>
 </ul>
-<p>3x2x5x5x4 should equate to 600 different combinations. Assume that the agent need to encounter the scenario 1000 times in order to learn it reliably, that's 600,000 trials. I don't think that's an unreasonable number of training trials in the grand scheme of things.</p>
+<p>3x2x4x4x4 should equate to 384 different combinations. Assume that the agent need to encounter the scenario 1000 times in order to learn it reliably, that's 384,000 trials. I don't think that's an unreasonable number of training trials in the grand scheme of things.</p>
 
       </div>
     </div>
